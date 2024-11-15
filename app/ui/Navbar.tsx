@@ -28,8 +28,8 @@ export default function Navbar() {
               href="/video"
               className={
                 currentPath === "/video"
-                  ? "bg-transparent"
-                  : "bg-neutral-600/80"
+                  ? "bg-neutral-600/80"
+                  : "bg-transparent"
               }
             >
               <button
@@ -41,9 +41,9 @@ export default function Navbar() {
             <Link
               href="/audio"
               className={
-                currentPath === "/video"
-                  ? "bg-transparent"
-                  : "bg-neutral-600/80"
+                currentPath === "/audio"
+                  ? "bg-neutral-600/80"
+                  : "bg-transparent"
               }
             >
               <button className={`transition-all duration-300 p-4 rounded-lg`}>
