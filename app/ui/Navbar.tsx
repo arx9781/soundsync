@@ -15,7 +15,6 @@ const outfit = Outfit({
 
 export default function Navbar() {
   const currentPath = usePathname();
-  const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   const navLinkClasses = (path: string) => `
     inline-block px-4 py-2
