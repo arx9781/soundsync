@@ -16,10 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="mx-auto max-w-[95%]">
+      <body className="mx-auto max-w-[90%] md:max-w-[95%]">
         <DynamicTitle />
         <Navbar />
-        <div className="mt-16">{children}</div>
+        <div className="mt-12 md:mt-10">{children}</div>
       </body>
     </html>
   );
