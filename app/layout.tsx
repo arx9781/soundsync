@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./ui/Navbar";
+import { DynamicTitle } from "./ui/DynamicTitle";
 
 export const metadata: Metadata = {
   title: "MPPlayer",
@@ -15,9 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="mx-auto max-w-[90%] md:max-w-[95%]">
+        <DynamicTitle />
         <Navbar />
-        {children}
+        <div className="mt-12 md:mt-10">{children}</div>
       </body>
     </html>
   );
