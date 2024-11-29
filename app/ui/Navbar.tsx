@@ -5,7 +5,6 @@ import { Outfit } from "next/font/google";
 import { PiWaveformFill } from "react-icons/pi";
 import { SearchBar } from "./SearchBar";
 import { ViewModeDropdown } from "./ViewModeDropdown";
-import { useState } from "react";
 
 const outfit = Outfit({
   subsets: ["latin"],
