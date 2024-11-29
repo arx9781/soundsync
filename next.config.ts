@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['lastfm.freetls.fastly.net'], // Add the allowed external image domain here
+  },
 };
 
 export default nextConfig;
